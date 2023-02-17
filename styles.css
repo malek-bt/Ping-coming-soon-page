@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    
+    height: 100vh;
+}
+header{
+    margin: 2.5rem 0 2rem 0;
+    text-align: center;
+    
+    
+}
+.pingIcon{
+    width: 4rem;
+}
+
+h1 {
+    color: hsl(0, 0%, 59%);
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+}
+span {
+    color: hsl(209, 33%, 12%);
+    font-weight: 700;
+}
+.text{
+    text-align: center;
+    font-size: 1.25rem;
+    padding-top: 1rem;
+    font-weight: 600;
+}
+
+form{
+    margin-top: 2rem;
+    text-align: center;
+    
+    
+}
+input {
+    height: 2.5rem;
+    width: 90%;
+    border-radius: 1.5rem;
+    border: 1px solid hsl(223, 100%, 88%);
+    padding-left: 1rem;
+    
+}
+::placeholder {
+    color: hsl(223, 100%, 88%);
+}
+input:focus {
+    border: 1px solid hsl(223, 100%, 88%);
+    outline: none;
+}
+.btn {
+    margin-top: 1rem;
+    width: 90%;
+    border-radius: 1.5rem;
+    height: 2.5rem;
+    background-color: hsl(223, 87%, 63%);
+    border: none;
+    color: white;
+    font-weight: 300;
+    box-shadow: 0px 3px 3px 3px hsl(0, 33%, 93%);
+}
+
+.btn:hover {
+    background-color: hsl(223, 100%, 70%);
+    cursor: pointer;
+}
+.dashboard{
+    text-align: center;
+    margin-top: 4rem;
+}
+.dash-img {
+    
+    width: 90%;
+}
+
+footer {
+    text-align: center;
+    bottom: 2rem;
+    position: absolute;
+    width: 100%;
+}
+
+.icons {
+    
+    text-align: center;
+}
+.fb , .linkedin , .git {
+    font-size: 2.25rem;
+    color: white;
+    margin: .25rem;
+    border-radius: 100%;
+    background-color: hsl(223, 87%, 63%);
+    
+}
+a {
+    color: white;
+}
+.fb:hover , .linkedin:hover , .git:hover  {
+    
+    color: hsl(223, 87%, 63%);
+    background-color: white;
+}
+.footer {
+    padding: 1rem 0 1rem 0;
+    color: hsl(0, 0%, 59%);
+    font-size: .875rem;
+}
+
+.errorMsg {
+    font-size: .75rem;
+    color: hsl(354, 100%, 66%);
+    font-weight: 600;
+    margin-top: .3125rem;
+    display: none;
+}
+@media screen and (min-width:700px){
+    body {
+        height: 95vh;
+    }
+    h1 {
+        font-size: 2.25rem;
+    }
+    .text {
+        font-size: .875rem;
+    }
+    form {
+        display: flex;
+        justify-content: center;
+        
+       
+    }
+    .email-field {
+        margin-right: 1rem;
+        width: 20%;
+    }
+    input{
+        width: 100%;
+        
+    }
+    ::placeholder {
+        font-size: .75rem;
+    }
+    .btn {
+        width: 10%;
+        font-size: .75rem;
+        margin-top: 0;
+    }
+    .dashboard {
+        margin-top: 1rem;
+        
+    }
+    .dash-img {
+        width: 35%;
+    }
+    .fb , .linkedin , .git , a {
+        font-size: 1.75rem;
+        border-radius: 100%;
+    }
+    footer {
+        
+        bottom: 1rem;
+        
+    }
+    .footer {
+        font-size: 0.5rem;
+    }
+    
+}

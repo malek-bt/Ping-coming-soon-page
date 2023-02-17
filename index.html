@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body>
+  <header>
+    <img src="images/logo.svg" alt="" class="pingIcon">
+  </header>
+  <main class="wrapper">
+    <h1>We are launching <span> soon! </span></h1>
+    <p class="text">Subscribe and get notified</p>
+
+    <form id="form">
+      <div class="email-field">
+        <input type="text" placeholder="Your email address..." class="email" name="email">
+        <p class="errorMsg">Please provide a valid email address.</p>
+      </div>
+
+      <button class="btn" type="submit" onclick="validate();">Notify Me</button>
+    </form>
+
+
+    <div class="dashboard">
+      <img src="images/illustration-dashboard.png" alt="dashboard image" class="dash-img">
+    </div>
+  </main>
+
+
+
+  <footer>
+    <div class="icons">
+      <a href="https://www.facebook.com/profile.php?id=100008873712966">
+        <ion-icon name="logo-facebook" class="fb"></ion-icon>
+      </a>
+      <a href="https://www.linkedin.com/in/malek-bentaher-361028222/">
+        <ion-icon name="logo-linkedin" class="linkedin"></ion-icon>
+      </a>
+      <a href="https://github.com/malek-bt">
+        <ion-icon name="logo-github" class="git"></ion-icon>
+      </a>
+    </div>
+
+    <p class="footer">&copy; Copyright Ping. All rights reserved.</p>
+  </footer>
+
+
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="scripts.js"></script>
+</body>
+
+</html>
