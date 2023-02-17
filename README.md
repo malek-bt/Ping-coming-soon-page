@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Code on GitHub]()
-- Live Site URL: [GitHub Pages Live URL]()
+- Solution URL: [Code on GitHub](https://github.com/malek-bt/Ping-coming-soon-page)
+- Live Site URL: [GitHub Pages Live URL](https://malek-bt.github.io/Ping-coming-soon-page/)
 
 ## My process
 
